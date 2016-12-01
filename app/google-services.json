@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "637006696948",
+    "firebase_url": "https://twofactorauthxxx.firebaseio.com",
+    "project_id": "twofactorauthxxx",
+    "storage_bucket": "twofactorauthxxx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637006696948:android:ef6f4cd992852ee3",
+        "android_client_info": {
+          "package_name": "com.androidadvance.springtwofactorauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637006696948-l0s966pdjr2j88nst0f96oautlp8t2ba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE-k3BX9NjlXj2NO06hnKMMHs5ycfLChI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

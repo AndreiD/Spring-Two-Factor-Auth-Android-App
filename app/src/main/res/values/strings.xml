@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Super Secure App</string>
+  <string name="action_settings">Settings</string>
+  <string name="dialog_action_ok">OK</string>
+  <string name="dialog_general_error_message">An error has occurred</string>
+  <string name="generic_error_title">Error</string>
+  <string name="application_reseted">Settings erased. Please enter the auth code again.</string>
+  <string name="reset_ok">Settings Erased</string>
+</resources>

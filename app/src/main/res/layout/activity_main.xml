@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/relayout_main"
+    android:layout_height="match_parent"
+    >
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Is that you ?"
+      android:textSize="30sp"
+      android:textAppearance="@style/Title"
+      style="@style/Title"
+      android:layout_above="@+id/linearlayoutButtons"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="32dp"
+      />
+
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:id="@+id/linearlayoutButtons"
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginRight="16dp"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"
+      >
+    <Button
+        android:text="YES"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/button_yes"
+        android:layout_weight="1"
+        android:background="@drawable/button_clean_no_border_1"
+        android:layout_marginRight="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+    <Button
+        android:text="NO"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/button_no"
+        android:layout_weight="1"
+        android:background="@drawable/button_clean_no_border_1"
+        android:layout_marginLeft="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+  </LinearLayout>
+  <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:srcCompat="@drawable/ic_settings_white_48dp"
+      android:id="@+id/imageButton_settings"
+      android:background="@color/transparent"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_margin="16dp"
+      />
+
+
+</RelativeLayout>
