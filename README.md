@@ -35,3 +35,15 @@ The google push notification token is send to the server.
 Everytime a user will try to login, they will get a push notification and they have to click the Yes button on their phone.
 
 <img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162541.png" width="500px" alt="two factor auth android">
+
+
+### Licence
+
+Copyright (C) 2016 Me nospam@me.com
+
+Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+You just DO WHAT THE FUCK YOU WANT TO.
