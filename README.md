@@ -2,7 +2,7 @@
 
 Need more security ? Try Two Factor Auth
 
-<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162620.png" style="max-height:500px" alt="two factor auth android sample">
+<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162620.png" width="400px" alt="two factor auth android sample">
 
 <img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162541.png" width="500px" alt="two factor auth android">
 
