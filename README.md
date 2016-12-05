@@ -11,7 +11,7 @@ The major drawback of authentication performed including something that the user
 
 ### Mobile phone two-factor authentication
 
-Devices such as mobile phones and smartphones serve as "something that the user possesses", was developed to provide an alternative method that would avoid such issues. To authenticate themselves, people can use their personal access license (i.e. something that only the individual user knows) plus a one-time-valid, dynamic passcode consisting of digits. The code can be sent to their mobile device by SMS or via a special app. The advantage of this method is that there is no need for an additional, dedicated token, as users tend to carry their mobile devices around at all times anyway.
+Devices such as mobile phones and smartphones serve as "something that the user possesses", was developed to provide an alternative method that would avoid such issues. To authenticate themselves, people can use their personal access license (i.e. something that only the individual user knows) plus a one-time-valid, dynamic passcode consisting of digits. The code can be sent to their mobile device by SMS or directly on-screen. The advantage of this method is that there is no need for an additional, dedicated token, as users tend to carry their mobile devices around at all times anyway.
 
 ### Advantages of mobile phone two-factor authentication
 
@@ -24,15 +24,14 @@ Devices such as mobile phones and smartphones serve as "something that the user 
 
 #### Disadvantages of mobile phone two-factor authentication
 
-The mobile phone must be carried by the user, charged, and kept in range of a cellular network whenever authentication might be necessary. If the phone is unable to display messages, access is often impossible without backup plans.
-
-Mobile phones can be stolen, potentially allowing the thief to gain access into the user's accounts
+* The mobile phone must be carried by the user, charged, and kept in range of a cellular network whenever authentication might be necessary. If the phone is unable to display messages, access is often impossible without backup plans.
+* Mobile phones can be stolen, potentially allowing the thief to gain access into the user's accounts
 
 ### How it works ?
 
-A code is generated and showed on the screen after a user registers an account. The code is copied on the phone and will act as part of the encryption key.
-The google push notification token is send to the server.
-Everytime a user will try to login, they will get a push notification and they have to click the Yes button on their phone.
+* A code is generated and showed on the screen after a user registers an account. The code is copied on the phone and will act as part of the encryption key.
+* The google push notification token is send to the server.
+* Everytime a user will try to login, they will get a push notification and they have to click the Yes button on their phone.
 
 <img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162541.png" width="500px" alt="two factor auth android">
 
