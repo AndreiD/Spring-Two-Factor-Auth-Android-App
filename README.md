@@ -2,9 +2,9 @@
 
 Need more security ? Try Two Factor Auth
 
-<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162620.png" alt="two factor auth android sample">
+<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162620.png" style="max-height:500px" alt="two factor auth android sample">
 
-<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162541.png" alt="two factor auth android">
+<img src="https://raw.githubusercontent.com/AndreiD/Spring-Two-Factor-Auth-Android-App/master/device-2016-12-05-162541.png" width="500px" alt="two factor auth android">
 
 ### What is this ?
 A sample application that can be used as a template for implementing Mobile Two Factor Auth 
