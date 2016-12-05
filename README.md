@@ -15,12 +15,12 @@ Devices such as mobile phones and smartphones serve as "something that the user 
 
 ### Advantages of mobile phone two-factor authentication
 
-*User Friendly*
-No additional tokens are necessary because it uses mobile devices that are (usually) carried all the time.
-As they are constantly changed, dynamically generated passcodes are safer to use than fixed (static) log-in information.
-Depending on the solution, passcodes that have been used are automatically replaced in order to ensure that a valid code is always available; acute transmission/reception problems do not therefore prevent logins.
-The option to specify a maximum permitted number of incorrect entries reduces the risk of attacks by unauthorized persons.
-It is easy to configure; user friendly.
+* *User Friendly*
+* No additional tokens are necessary because it uses mobile devices that are (usually) carried all the time.
+* As they are constantly changed, dynamically generated passcodes are safer to use than fixed (static) log-in information.
+* Depending on the solution, passcodes that have been used are automatically replaced in order to ensure that a valid code is always available; acute transmission/reception problems do not therefore prevent logins.
+* The option to specify a maximum permitted number of incorrect entries reduces the risk of attacks by unauthorized persons.
+* It is easy to configure; user friendly.
 
 #### Disadvantages of mobile phone two-factor authentication
 
