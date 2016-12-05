@@ -1,7 +1,5 @@
 package com.androidadvance.springtwofactorauth.services;
 
-import android.util.Log;
-
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 import com.socks.library.KLog;
@@ -16,8 +14,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
    * is initially generated so this is where you would retrieve the token.
    */
   // [START refresh_token]
-  @Override
-  public void onTokenRefresh() {
+  @Override public void onTokenRefresh() {
     // Get updated InstanceID token.
     String refreshedToken = FirebaseInstanceId.getInstance().getToken();
 
@@ -39,7 +36,6 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
   private void sendRegistrationToServer(String token) {
     // TODO: Implement this method to send token to your app server.
     KLog.d("The token is >>>>> " + token);
-
 
 
   }
